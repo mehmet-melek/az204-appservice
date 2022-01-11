@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/b4f279d7-9ec0-4d88-a495-bdd477b5772b/resourceGroups/AZ204-10.01.2022/providers/Microsoft.Web/sites/myappmelek",
+    "appService.deploySubpath": "."
+}
