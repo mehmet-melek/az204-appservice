@@ -8,8 +8,14 @@ app.use(bodyParser.json())
 
 app.get('/api/hello', async (req, res) => {
 
-    
-    res.send(JSON.stringify(process.env))
+    res.send('Hello World')
+
+})
+
+app.get('/api/sql', async (req, res) => {
+
+    const sqlString = process.env.SQLCONNSTR_myconnectionstring
+    res.send('SQL String: ' + sqlString)
 })
 
 app.get('/api/merhaba', (req, res) => {
